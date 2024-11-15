@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/bg-header.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+}
+
+header nav {
+  width: 84%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul a {
+  color: white;
+  margin: 0 12px;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header ul a:hover {
+  border-bottom: 1px solid white;
+}
+
+#hero {
+  width: 80%;
+  margin: 0 auto;
+
+  text-align: center;
+  padding-top: 220px;
+}
+
+#hero h2 {
+  font-size: 50px;
+  color: yellow;
+  font-weight: 500;
+}
+
+#hero h1 {
+  font-size: 30px;
+  color: white;
+  font-size: 400;
+  margin-bottom: 80px;
+}
+
+#hero button {
+  background: yellow;
+  color: #999666;
+  padding: 10px 30px;
+  font-size: 30px;
+}
+
+#planes {
+  width: 100%;
+  position: relative;
+  padding: 120px 0;
+  text-align: center;
+}
+
+#planes h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+#planes {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#planes .fila {
+  display: flex;
+  justify-content: center;
+}
+
+#planes article {
+  margin: 20px 50px;
+  position: relative;
+}
+
+#planes article h3 {
+  position: relative;
+  top: -140px;
+  color: yellow;
+}
+
+#destinos {
+  width: 100%;
+  padding: 120px 0 50px;
+  background: url(../img/bg-destinos.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#destinos {
+  color: yellow;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+#destinos .fila {
+  display: flex;
+  justify-content: center;
+}
+
+#destinos article {
+  margin: 60px 260px;
+  position: relative;
+}
+
+#destinos h2 {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-size: 500;
+}
+
+#contacto {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 50px 0;
+  background: yellow;
+}
+
+#contacto h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#contacto p {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#contacto form {
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contacto form input {
+  width: 36%;
+  padding: 12px 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#contacto form select {
+  width: 43%;
+  padding: 12px 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#contacto button {
+  background: black;
+  color: white;
+  font-size: 20px;
+  padding: 12px 50px;
+  border-radius: 6px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
